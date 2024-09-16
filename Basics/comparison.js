@@ -14,3 +14,5 @@ console.log(null >= 0)//true
 //avoid above comparisons 
 
 console.log("2" === 2)
+
+//done with it
