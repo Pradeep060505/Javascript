@@ -30,4 +30,9 @@ console.log(id === anotherId)
  }
  
 
- 
+ // Stack(Primitive), Heap(Non-Primitive)
+
+ let myName = "Pradeep"
+
+ let anotherName = myName
+ anotherName = "rishi"
