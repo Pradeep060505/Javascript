@@ -16,3 +16,18 @@ console.log(id === anotherId)
 //Reference(Non primitive) 
 
 //Array, Objects, Functions
+ const heros = ["shaktiman", "nagaraj", "doga"];
+
+ let myObj = {
+    name:"Pradeep",
+    age:19
+ }
+ //everything in curly braces is object
+
+ //myfunction is object function
+ const myFunction = function(){
+    console.log("Hello World");
+ }
+ 
+
+ 
