@@ -18,3 +18,20 @@ console.log(firstname.length)
 console.log(firstname.toUpperCase())
 console.log(firstname.charAt(3))
 console.log(firstname.indexOf('a'))
+
+//slice
+const newString = firstname.slice(1, 2)
+console.log(newString)
+
+//replace and trim
+const newString1 = "  Pradeep  "
+console.log(newString1)
+console.log(newString1.trim())
+
+const url = "https:/pradeep.com/pradeep%20rathod"
+console.log(
+url.replace('%20', '_'))
+
+//to find 
+console.log(url.includes('pradeep'))
+console.log(url.includes('dost'))
