@@ -16,3 +16,21 @@ myArr.unshift(9);//to add in start but not optimize
 myArr.shift()//to remove unshift added value
 
 console.log(myArr)
+
+console.log(myArr.includes(3))
+console.log(myArr.indexOf(2))
+
+//Slice and splice
+
+console.log("A", myArr);
+
+const mynew1 = myArr.slice(1, 3);
+console.log(mynew1);
+console.log("B", myArr);
+
+const myn2 = myArr.splice(1, 3)
+console.log(myn2)
+
+//in slice array will remain same 
+//in splice array will remove that portion wil splice(1, 3) from array
+
