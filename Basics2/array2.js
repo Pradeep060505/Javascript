@@ -16,3 +16,17 @@ const newarray = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
 const real_array = newarray.flat(Infinity)
 console.log(real_array)
+
+//checking array
+console.log(Array.isArray("Pradeep"))
+//converting to array
+console.log(Array.from("Pradeep"))
+
+//intersting
+console.log(Array.isArray({name: "Pradeep"}))//confusing about key or their value will array so it will return empty if not mentioned
+
+let arr1 = 100;
+let arr2 = 200;
+let arr3 = 300;
+
+console.log(Array.of(arr1, arr2, arr3))
