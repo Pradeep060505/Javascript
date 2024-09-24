@@ -26,3 +26,30 @@ const obj2 = {3: "a", 4:"b"}
 
 const obj3 = Object.assign({}, obj1, obj2)
 console.log(obj3)
+
+const obj4 = {...obj1,...obj2}
+console.log(obj4)
+
+const User = {
+    1 : {
+        email:"Ram@gamil.com",
+        id: "12"
+    },
+    1 : {
+        email:"Ram@gamil.com",
+        id: "12"
+    },
+    1 : {
+        email:"Ram@gamil.com",
+        id: "12"
+    }
+}
+
+User[1].email
+console.log(pUser);
+
+console.log(Object.keys(pUser));
+console.log(Object.values(pUser));
+console.log(Object.entries(pUser))
+
+console.log(pUser.hasOwnProperty('isLoggedIn'))
