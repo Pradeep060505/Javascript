@@ -25,5 +25,13 @@ console.log(JsUser["email"])
 Object.create
 
 JsUser.email = "pradeep@12.com"
-Object.freeze(JsUser)
+//Object.freeze(JsUser)//no changes will aplly after using freeze
+JsUser.email = "pradeep2.com"
 console.log(JsUser)
+
+
+JsUser.greeting = function(){
+    console.log(`hello jsuser, ${this.name}`)
+}
+
+console.log(JsUser.greeting())
